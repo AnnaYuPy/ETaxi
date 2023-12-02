@@ -1,0 +1,276 @@
+@font-face {
+    src: url('../fonts/Gilroy-Regular.ttf');
+    font-family: "Gilroy Regular";
+}
+@font-face {
+    src: url('../fonts/mursgothic-widedark.ttf');
+    font-family: "mursgothic widedark";
+}
+
+body {
+	background-color: #FFE604;
+	margin-left: 100px;
+	margin-top: 191px;
+	margin: 0;
+	font-family: "OpenSans Bold", Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	background-color: #FFE604;
+	margin: 0 0 117 0;
+
+	display: flex;
+
+	justify-content: space-between;
+	font-family: "Gilroy Regular", sans-serif;
+	width: 100%;
+	position: fixed;
+
+}
+
+
+.menu {
+	display: inline-block;
+}
+
+.menu > a {
+	display: inline-block;
+	padding: 42px 25px 30px 25px;
+	font-family: "Gilroy Regular", sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	color: #000000;
+	/*font-weight: bold;*/
+	text-decoration: none;	
+}
+.menu-left {
+	font-family: "Gilroy Regular", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	display: inline-block;
+	padding: 32px 25px 30px 100px;
+	
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.menu-right {
+	display: flex;
+	padding: 32px 100px 30px 25px;
+}
+
+
+
+	
+.menu-right > button {
+	margin: auto;
+	padding: 17px 20px;
+	
+	display: inline-block;
+	background-color: #5112AD;
+	color: white;
+	font-family: "Gilroy Regular", sans-serif;
+	font-weight: 800;
+	font-size: 17px;
+	width: 172px;
+	height: 12px;
+	border: none;
+	cursor: pointer;
+display: flex;
+  align-items: center;
+  justify-content: center;
+	cursor: pointer;
+}
+.menu-right > button:hover {
+	background-color: #000000;
+}
+select
+{
+	background-color: #FFE604;
+	border: 0;
+	outline: 0;
+}
+
+main {
+	padding: 0px 150px 0px 100px;
+}
+.main-header {
+	display: inline-block;
+	padding: 100px 100px 0px 0px;
+	font-family: "mursgothic widedark", sans-serif;
+	font-weight: 800;
+	font-size: 80px;
+}
+.main-subheader {
+	display: inline-block;
+	padding: 0px 0px 0px 0px;
+	font-family: "Gilroy Regular", sans-serif;
+	font-weight: 500;
+	font-size: 35px;
+}
+
+.button_go {
+	margin: auto;
+		background-color: #5112AD;
+	color: white;
+	font-family: "mursgothic widedark", sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	padding: 17px 20px;
+	width: 360px;
+	height: 90px;
+display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border: none;
+	cursor: pointer;
+}
+.button_go:hover {
+	background-color: #000000;
+}
+
+
+.main-addheader {
+	display: inline-block;
+	padding: 100px 100px 0px 0px;
+	font-family: "mursgothic widedark", sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+}
+
+.button_romb {
+	margin: auto;
+	background-color: #5112AD;
+	color: white;
+	padding: 0 0 0 0;
+	width: 300px;
+	height: 300px;
+
+    clip-path: polygon(10% 55%, 50% 15%, 90% 55%, 50% 95%, 10% 55%);
+    border: none;
+	cursor: pointer;
+	font-family: "Gilroy Regular", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	display: inline-block;
+  align-items: center;
+  justify-content: center;
+	cursor: pointer;
+}
+
+.button_romb:hover {
+	background-color: #000000;
+}
+
+
+footer {
+	background-color: #5112AD;
+}
+.footer-content{
+	display: flex;
+padding: 30px; 100px; 30px; 100px;
+	justify-content: space-between;
+	font-family: "Gilroy Regular", sans-serif;
+		font-weight: 700;
+	font-size: 20px;
+	color: #FFFFFF;
+	width: 100%;
+
+}
+.footer-left
+{
+
+
+}
+.footer-right{
+
+}
+
+
+
+
+@media screen and (max-width: 907px) {
+	.services-lead,
+	.services__blocks {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.products__item {
+		width: 100%;
+		text-align: center;
+	}
+	.services {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	.team__members {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.team__selected-photo {
+		margin-bottom: 18px;
+		margin-right: 0;
+	}
+} 
+
+@media screen and (max-width: 800px) {
+	.services-lead {
+		width: 100%;
+		max-width: 100%;
+	}
+	.services__blocks {
+		width: 100%;
+		max-width: 100%;
+	}
+	.contacts {
+		padding: 1vw;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.feedback__name,
+	.feedback__mail,
+	.feedback__message,
+	.feedback__button {
+		width: 100%;
+	}
+	.feedback__name {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.header {
+		padding-left: 20px;
+	}
+	.intro {
+		flex-wrap: wrap;
+	}
+	.intro__content {
+		width: 100%;
+	}
+	.intro__image-link {
+		width: 100%;
+	}
+	.intro__image {
+		width: 100%;
+		height: auto;
+	}
+	.intro__heading {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.subscribe__form {
+		flex-wrap: wrap;
+	}
+}

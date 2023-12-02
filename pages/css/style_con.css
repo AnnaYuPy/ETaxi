@@ -1,0 +1,18 @@
+@font-face {
+    src: url('../fonts/Gilroy-Regular.ttf');
+    font-family: "Gilroy Regular";
+}
+
+   button {
+    background: #5112AD;
+    color: #fff;
+    border: none; 
+    font-family: "Gilroy Regular", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+   }
+   button:hover {
+	background-color: #000000;
+}
+
+ 
